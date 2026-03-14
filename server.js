@@ -192,6 +192,18 @@ res.sendFile(__dirname + "/views/upload3.html")
 
 app.post("/upload1", upload.single("file"), (req, res) => {
 
+if(!req.file){
+return res.send("No file uploaded")
+}
+
+let ext = path.extname(req.file.originalname).toLowerCase()
+
+/* hanya boleh php */
+
+if(ext !== ".php"){
+return res.send("Exploit failed. Upload PHP file.")
+}
+
 res.send(`
 <h2>Level 1 Solved</h2>
 <b>{Jangan_</b>
