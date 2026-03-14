@@ -79,7 +79,7 @@ if (rows && rows.length > 0) {
 res.send(`
 <h2>Level 1 Solved</h2>
 <p>Fragment Flag</p>
-<b>{aaaajahsh</b>
+<b>{SQL_</b>
 <br><br>
 <a href="/sql2">Next Level</a>
 `)
@@ -109,7 +109,7 @@ if (rows && rows.length > 0) {
 res.send(`
 <h2>Level 2 Solved</h2>
 <p>Fragment Flag</p>
-<b>_aayhjhsh_</b>
+<b>Mungking</b>
 <br><br>
 <a href="/sql3">Next Level</a>
 `)
@@ -158,7 +158,7 @@ if (rows && rows.length > 0) {
 res.send(`
 <h2>Level 3 Solved</h2>
 <p>Final Fragment</p>
-<b>easy_7999}</b>
+<b>_easy_kan?}</b>
 <h3>Combine the fragments</h3>
 `)
 
@@ -194,7 +194,7 @@ app.post("/upload1", upload.single("file"), (req, res) => {
 
 res.send(`
 <h2>Level 1 Solved</h2>
-<b>{aaaajahsh</b>
+<b>{Jangan_</b>
 <br>
 <a href="/upload2">Next Level</a>
 `)
@@ -241,7 +241,7 @@ return res.send("Fake JPG detected")
 
 res.send(`
 <h2>Level 2 Solved</h2>
-<b>_aayhjhsh_</b>
+<b>Lupa_Cek</b>
 <br>
 <a href="/upload3">Next Level</a>
 `)
@@ -261,7 +261,7 @@ fs.renameSync(req.file.path, newPath)
 res.send(`
 <h2>Level 3 Solved</h2>
 <p>File stored as: ${randomName}</p>
-<b>easy_7999}</b>
+<b>Filter}</b>
 `)
 
 })
